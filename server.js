@@ -53,7 +53,10 @@ var htmlTemplate=`
       </div> 
     </body>    
         
-    </html>`;}
+    </html>`;
+    
+    return htmlTemplate;
+}
 
 app.get('/article-one',function (req,res){
   res.send(createTemplate(articleOne));
