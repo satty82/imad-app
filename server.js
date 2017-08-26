@@ -9,20 +9,44 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var articleOne={
-    title:'Article-one | MB',
-    heading:'Article one',
+var articles={
+'article-One':{
+        title:'Article-one | MB',
+        heading:'Article one',
+        content:`<p>
+               This is my article one. This is my article one This is my article one This is my article one This is my article one
+             </p>
+             
+              <p>
+           
+               This is my article one. This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one
+        
+             </p>`
+        
+},
+
+'article-Two':{
+    title:'Article-two | MB',
+    heading:'Article two',
     content:`<p>
-           This is my article one. This is my article one This is my article one This is my article one This is my article one
+           This is my article two. 
          </p>
          
           <p>
        
-           This is my article one. This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one This is my article one
+           This is my article two. 
     
-         </p>`
-    
-};
+         </p>`},
+'article-Three':{
+    title:'Article-three | MB',
+    heading:'Article three',
+    content:`<p>
+           This is my article three.  </p>
+         
+         `}};
+
+
+
 function createTemplate(data){
 var title=data.title;
 var heading=data.heading;
@@ -58,8 +82,9 @@ var htmlTemplate=`
     return htmlTemplate;
 }
 
-app.get('/article-one',function (req,res){
-  res.send(createTemplate(articleOne));
+app.get('/:articlesName',function (req,res){
+    var articlesName=req.params.articlesName;
+  res.send(createTemplate(articles[articlesName()]));
 });
 app.get('/article-two',function (req,res){
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
