@@ -54,7 +54,7 @@ var content=data.content;
 
 var htmlTemplate=`
             <!doctype html>
-    <head>
+        <head>
             <title> ${title}
             
             </title>
