@@ -82,9 +82,9 @@ var htmlTemplate=`
     return htmlTemplate;
 }
 
-app.get('/:articlesName',function (req,res){
-    var articlesName=req.params.articlesName;
-  res.send(createTemplate(articles[articlesName()]));
+app.get('/:articleName',function (req,res){
+    var articleName=req.params.articleName;
+  res.send(createTemplate(articles[articleName()]));
 });
 
 
