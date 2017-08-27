@@ -47,7 +47,7 @@ var articles={
 
 
 
-function createTemplate(data){
+/*function createTemplate(data){
 var title=data.title;
 var heading=data.heading;
 var content=data.content;
@@ -55,7 +55,9 @@ var content=data.content;
 var htmlTemplate=`
             <!doctype html>
         <head>
-            <title> ${title}
+            <title> 
+            
+            ${title}
             
             </title>
         <meta name="viewport" content="width=device-width, intial-scale=1" />
@@ -80,7 +82,7 @@ var htmlTemplate=`
     </html>`;
     
     return htmlTemplate;
-}
+}*/
 
 app.get('/:articleName',function (req,res){
     var articleName=req.params.articleName;
