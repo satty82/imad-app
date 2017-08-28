@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var element= document.getElementById('main-text');
+/* var element= document.getElementById('main-text');
 element.innerHTML='New Value';
 
 var img=document.getElementById("madi");
@@ -16,7 +16,7 @@ var interval=setInterval(moveRight,50);
 
 var button=document.getElementById("counter");
 var counter=0;
-
+*/
 button.onclick= function(){
     
     counter=counter+1;
