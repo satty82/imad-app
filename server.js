@@ -10,10 +10,11 @@ app.get('/', function (req, res) {
 });
 
 var articles={
-'article-One':{
+article-One:{
         title:'Article-one | MB',
         heading:'Article one',
-        content:`<p>
+        content:`
+         <p>
                This is my article one. This is my article one This is my article one This is my article one This is my article one
              </p>
              
@@ -25,7 +26,7 @@ var articles={
         
 },
 
-'article-Two':{
+article-Two:{
     title:'Article-two | MB',
     heading:'Article two',
     content:`<p>
@@ -37,13 +38,22 @@ var articles={
            This is my article two. 
     
          </p>`},
-'article-Three':{
+         
+  article-Three:{
     title:'Article-three | MB',
     heading:'Article three',
     content:`<p>
-           This is my article three.  </p>
+           This is my article three.            This is my article three.  
+           This is my article three.  
+           This is my article three.  
+           This is my article three.  
+ 
+           </p>`
          
-         `}};
+         }
+    
+    
+};
 
 
 
