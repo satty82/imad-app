@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-/*var articles={
+var articles={
 'article-One':{
         title:'Article-one | MB',
         heading:'Article one',
@@ -89,7 +89,7 @@ app.get('/:articleName',function (req,res){
   res.send(createTemplate(articles[articleName]));
 });
 
-*/
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
