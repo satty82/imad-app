@@ -41,9 +41,11 @@ var articleTwo={
        
            This is my article two. 
     
-         </p>`};
-  /*       
-  'article-Three':{
+         </p>`
+    
+};
+       
+  var articleThree={
     title:'Article-three | MB',
     heading:'Article three',
       date:'Sep,2,2016',
@@ -55,18 +57,18 @@ var articleTwo={
  
            </p>`
          
-         }
+         };
     
     
-};
-*/
+
+
 
 
 function createTemplate(data){
 var title=data.title;
 var heading=data.heading;
-var content=data.content;
 var date=data.date;
+var content=data.co
 
 var htmlTemplate=`
             <!doctype html>
@@ -112,9 +114,13 @@ app.get('/article-one',function (req,res){
    
   res.send(createTemplate(articleOne))});
   
-  app.get('/article-one',function (req,res){
+  app.get('/article-two',function (req,res){
    
   res.send(createTemplate(articleTwo))});
+
+app.get('/article-three',function (req,res){
+   
+  res.send(createTemplate(articleThree))});
 
 
 app.get('/ui/style.css', function (req, res) {
