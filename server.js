@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
 
 
 var articleOne={
-        title:'Article-one | MB',
-        heading:'Article one',
+        title:'Infosys  ',
+        heading:'Infosys Training',
         date:'Sep,5,2016',
         content:`
          <p>
