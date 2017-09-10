@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 
 var articleOne={
-        title:'Infosys  ',
+        title:'Article-One ',
         heading:'Infosys Training',
         date:'Sep,5,2016',
         content:`
@@ -51,18 +51,32 @@ Posted 31st October 2010 by Sourabh
 
 
 var articleTwo={
-    title:'Article-two | MB',
-    heading:'Article two',
+    title:'Article-Two | MB',
+    heading:'IT WORLD',
       date:'Sep,20,2016',
     content:`<p>
   
-           This is my article two. 
-         </p>
-         
-          <p>
-       
-           This is my article two. 
-    
+           Hi Guys ,
+
+Finally I think I need to write another post . Nothing much really but I guess need of the hour.
+Firstly thanks a lot for such an overwhelming response with the earlier posts .
+
+Well with this posts I really want to encourage you to post all kinds of Silly questions which we generally tend to ignore . Its like a general counseling sort of a thing .
+Lots of things about professional world which you get to know when you actually a part of it . This is an endeavor to know all of it before.
+
+So its not about Infosys Training , its about after training
+
+So you may come up with questions for example :
+
+a) When do we go onsite? what to do for onsite ?
+b) How is working in infy different from infy training?
+c) What is a daily work routine  in infy>?
+d) How is infy different from other companies (tcs , accenture etc)?
+e) MBA after a drop year or Infy with MBA prep side by side?
+etc. etc. etc.
+I can answer all of them but I would really wanna answer if you guys wanna know .
+
+I am sure its going to help!
          </p>`
     
 };
