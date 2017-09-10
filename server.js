@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 var articles={
- 'articleOne':{
+ 'article-One':{
         title:'Article-one | MB',
         heading:'Article one',
         date:'Sep,5,2016',
@@ -28,7 +28,7 @@ var articles={
 },
 
 
- 'articleTwo':{
+ 'article-Two':{
     title:'Article-two | MB',
     heading:'Article two',
       date:'Sep,20,2016',
@@ -45,7 +45,7 @@ var articles={
     
 },
        
-   'articleThree':{
+   'article-Three':{
     title:'Article-three | MB',
     heading:'Article three',
       date:'Sep,2,2016',
