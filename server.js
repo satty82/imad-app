@@ -49,13 +49,14 @@ var articleTwo={
     title:'Article-three | MB',
     heading:'Article three',
       date:'Sep,2,2016',
-    content:`<p>
+    content:`
+    <p>
            This is my article three.            This is my article three.  
            This is my article three.  
            This is my article three.  
            This is my article three.  
  
-           </p>`
+   </p>`
          
          };
     
