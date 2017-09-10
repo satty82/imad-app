@@ -130,7 +130,7 @@ var htmlTemplate=`
       <body>
        <div class="container">
             <div>
-            <a href="/">HOME</a>
+           <font color="red"> <a href="/">HOME</a>
           </div>
           <hr/>
           <h3>${heading}</h3>
