@@ -26,7 +26,7 @@ var articleOne={
              </p>`
         
 };
-
+/*
 
 var articleTwo={
     title:'Article-two | MB',
@@ -61,7 +61,7 @@ var articleTwo={
          };
     
     
-
+*/
 
 
 
