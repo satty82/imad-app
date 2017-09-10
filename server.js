@@ -26,9 +26,9 @@ var articleOne={
              </p>`
         
 };
-/*,
 
-'article-Two':{
+
+var articleTwo={
     title:'Article-two | MB',
     heading:'Article two',
       date:'Sep,20,2016',
@@ -41,8 +41,8 @@ var articleOne={
        
            This is my article two. 
     
-         </p>`},
-         
+         </p>`};
+  /*       
   'article-Three':{
     title:'Article-three | MB',
     heading:'Article three',
@@ -111,6 +111,10 @@ app.get('/:articleName',function (req,res){
 app.get('/article-one',function (req,res){
    
   res.send(createTemplate(articleOne))});
+  
+  app.get('/article-one',function (req,res){
+   
+  res.send(createTemplate(articleTwo))});
 
 
 app.get('/ui/style.css', function (req, res) {
